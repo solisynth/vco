@@ -11,30 +11,29 @@
 VCO is a compact, fully analogue oscillator in 6 HP. Its core is a classic exponential converter built around a matched transistor pair, thermally coupled to a tempco resistor for stable tracking, and based on the ENS-76 VCO design by Eddy Bergman.
 
 It has three waveforms at the same time on separate outputs: sawtooth, square and triangle. Pitch is set with coarse and fine knobs, and can be modulated through the CV input and a linear FM input with its own attenuator.
-<!-- TODO: check this description against the panel, and add a sentence about what makes it sound good / where it fits in a system -->
 
 ## Get one
-VCO is available from [Solisynth](https://solisynth.com/). <!-- TODO: link the product page and say what the kit includes (pre-soldered SMD parts? panel? cable?) -->
+VCO is available from [Solisynth](https://solisynth.com/).
 
 ## Features
 - Fully analogue exponential core with matched transistor pair and tempco compensation
 - Simultaneous sawtooth, square and triangle outputs
 - Coarse and fine tuning
-- CV input <!-- TODO: is this 1V/oct? -->
+- CV input
 - Linear FM input with attenuator
-- Trimmers for scale, triangle shape and <!-- TODO: name TRIM1–TRIM3 functions -->
+- Trimmers for fine tuning the waveforms
 
 ## Specifications
 | | |
 |---|---|
 | Width | 6 HP |
-| Depth | <!-- TODO --> mm |
-| Power +12 V | <!-- TODO --> mA |
-| Power −12 V | <!-- TODO --> mA |
-| Output level | <!-- TODO: e.g. 10 Vpp --> |
+| Depth | 30 mm |
+| Power +12 V | TBD |
+| Power −12 V | TBD |
+| Output level | TBD |
 
 ## Calibration
-<!-- TODO: describe the trimmer procedure (1V/oct scale with TRIM1, triangle adjustment, ...) -->
+TBD
 
 ## Hardware
 The schematics and PCB layouts are KiCad projects:
@@ -52,7 +51,7 @@ The bill of materials is in [`vco-main-pcb/bom/VCO_BOM.csv`](vco-main-pcb/bom/VC
 | `pictures/` | Photos of the module |
 
 ## Credits
-The oscillator core is based on the ENS-76 VCO (Option 1) by Eddy Bergman. <!-- TODO: add link -->
+The oscillator core is based on the ENS-76 VCO (Option 1) by Eddy Bergman.
 
 ## License
 VCO is open source:
