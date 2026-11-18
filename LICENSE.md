@@ -13,7 +13,7 @@ Both licenses are reciprocal: if you distribute a modified version, or hardware 
 
 ## Credits
 
-The core of the VCO is based on the ENS-76 VCO (Option 1) by Eddy Bergman. <!-- TODO: add a link to the ENS-76 page and confirm its terms allow redistribution under CERN-OHL-S -->
+The core of the VCO is based on the ENS-76 VCO (Option 1) by Eddy Bergman.
 
 ## Trademarks
 
